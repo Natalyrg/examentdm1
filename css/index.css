@@ -1,0 +1,43 @@
+.seccionrescate {
+    text-align: right;
+}
+.subtitulorescate {
+    opacity: 0.5;
+}
+.divisorrescate {
+    margin-left: 90%;
+}
+.imgrescate {
+    max-width: 300px;
+}
+.imgcrowdfunding {
+    max-width: 300px;
+    padding-top: 20px;
+}
+.subtitulocrowdfunding {
+    opacity: 0.5;
+}
+.divisorcrowdfunding {
+    margin-right: 90%;
+}
+.textocrowdfunding {
+    padding-bottom: 20px;
+}
+.linkcampañas {
+    font-family: 'Raleway', sans-serif;
+    border: solid;
+    border-color: black;
+    padding: 15px 25px;
+    text-align: center;
+    font-size: 15px;
+    text-decoration: none;
+    transition: 0.3s;
+    color: black;
+}
+.linkcampañas:hover {
+    background-color: black;
+    color: white;
+}
+.linkcampañas:visited {
+    text-decoration: none;
+}
