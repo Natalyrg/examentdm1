@@ -4,6 +4,11 @@ html{
 header a {
     color: white;
     text-decoration: none;
+    border: 2px solid aquamarine;
+    background-color:rgb(102, 235, 190);
+    display: block;
+    padding: 3px 50px 3px 50px;
+    text-align: center;
 
 }
 
@@ -12,18 +17,21 @@ header a {
     
 }
 .contenedor{
-    position: absolute;
+    /* position: fixed; */
     width:100%;
     margin: 0 auto;
     align-items: center;
     background-color: aquamarine;
+    z-index: 999;
 }
 .ima1-nav-cotn{
    
     /* justify-content: space-between; */
     align-items: center;
-    background-color: aquamarine;
+    background-color: aquamarine);
     list-style: none;
+   
+    
 
 }
 
@@ -34,30 +42,48 @@ header a {
    
 }
 .li{
-    background-color: aquamarine;
     display: inline-block;
-    
 }
-.li a{
-    background-color: aquamarine;
-    display: block;
-    padding: 20px 30px  20px 30px;
-    
-    
-}
-.menu li a:hover{
+
+.color :hover{
     color: black;
     background-color: white;
     transition-duration: 0.4s;
     text-decoration: none;
+    width: 100%;
+
 }
 .im2{
-    
-    margin-top: 64px;
+    display: block;
     width:100%;
     min-width: 100px;
     
 }
 
+.main-banner {
+    position: flex;
+    margin-right: auto;
+    margin-left: auto;
+}
 
+.texto-encima{
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin: 50% 5% 0%;
+    text-align: left;
+    font-size: large;
+}
 
+.centrado{
+    left: 130px;
+    text-align: center;
+}
+.posicion{
+    text-align: center;
+    
+}
+.texto{
+    font-size: 20px;
+    
+}
