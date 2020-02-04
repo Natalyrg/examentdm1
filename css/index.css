@@ -65,15 +65,10 @@
 .titulorescatados {
     text-align: center;
     font-family: 'Raleway', sans-serif;
-    color: white;
     padding-bottom: 10px;
 }
 .imgbigotes {
     max-width: 250px;
-}
-.bigotes {
-    text-align: left;
-    display: inline;
 }
 .imgchocolate {
     max-width: 250px;
@@ -92,4 +87,7 @@
 }
 .imgwifi {
     max-width: 250px;
+}
+.col {
+    align-items: baseline;
 }
