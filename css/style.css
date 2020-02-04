@@ -1,14 +1,16 @@
-html{
-    scroll-behavior: smooth;
+*{
+    margin: 0px;
+    padding: 0px;
 }
+
 header a {
     color: white;
     text-decoration: none;
-    border: 2px solid aquamarine;
-    background-color:rgb(102, 235, 190);
+    background-color:aquamarine;
     display: block;
     padding: 3px 50px 3px 50px;
     text-align: center;
+    margin-top: 20px;
 
 }
 
@@ -17,22 +19,17 @@ header a {
     
 }
 .contenedor{
-    /* position: fixed; */
-    width:100%;
+    
     margin: 0 auto;
     align-items: center;
     background-color: aquamarine;
     z-index: 999;
 }
 .ima1-nav-cotn{
-   
-    /* justify-content: space-between; */
     align-items: center;
-    background-color: aquamarine);
+    background-color: aquamarine;
     list-style: none;
-   
-    
-
+ 
 }
 
 .menu  {
@@ -48,9 +45,8 @@ header a {
 .color :hover{
     color: black;
     background-color: white;
-    transition-duration: 0.4s;
     text-decoration: none;
-    width: 100%;
+    
 
 }
 .im2{
@@ -74,9 +70,20 @@ header a {
     text-align: left;
     font-size: large;
 }
-
+@media (max-width:700px){
+    .texto-encima{
+        margin: 80% 5% 0%;
+       
+    }
+}
+    @media (max-width:300px){
+        .texto-encima{
+            margin: 120% 5% 0%;
+           
+        }
+}
 .centrado{
-    left: 130px;
+    left: 90px;
     text-align: center;
 }
 .posicion{
@@ -86,4 +93,33 @@ header a {
 .texto{
     font-size: 20px;
     
+}
+.container{
+    
+    padding:32px 64px;
+    margin:auto;
+    background-color: aquamarine;
+    text-align: center;
+}
+
+.vector{
+    width: 40px;
+    height: 40px;
+    display: inline-block;
+  
+}
+.final{
+    
+    
+    padding:32px 64px;
+    margin:auto;
+    background-color: aquamarine;
+    text-decoration: none;
+}
+@media (max-width: 700px){
+iframe{
+        width: 100px;
+        height: 90px;
+
+    }
 }
