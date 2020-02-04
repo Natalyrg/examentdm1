@@ -1,11 +1,16 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
 header a {
     color: white;
     text-decoration: none;
-    border: 2px solid aquamarine;
-    background-color:rgb(102, 235, 190);
+    background-color:aquamarine;
     display: block;
     padding: 3px 50px 3px 50px;
     text-align: center;
+    margin-top: 20px;
 
 }
 
@@ -43,9 +48,9 @@ header a {
 .color :hover{
     color: black;
     background-color: white;
-    transition-duration: 0.4s;
+    /* transition-duration: 0.4s; */
     text-decoration: none;
-    width: 100%;
+    
 
 }
 .im2{
@@ -69,7 +74,13 @@ header a {
     text-align: left;
     font-size: large;
 }
-
+@media (max-width:700px){
+    .texto-encima{
+        margin: 80% 5% 0%;
+       
+    }
+    
+}
 .centrado{
     left: 90px;
     text-align: center;
