@@ -1,8 +1,12 @@
 .seccionrescate {
     text-align: right;
 }
+.titulorescate {
+    font-family: 'Raleway', sans-serif;
+}
 .subtitulorescate {
     opacity: 0.5;
+    font-family: 'Raleway', sans-serif;
 }
 .divisorrescate {
     margin-left: 90%;
@@ -14,8 +18,12 @@
     max-width: 300px;
     padding-top: 20px;
 }
+.titulocrowdfunding {
+    font-family: 'Raleway', sans-serif;
+}
 .subtitulocrowdfunding {
     opacity: 0.5;
+    font-family: 'Raleway', sans-serif;
 }
 .divisorcrowdfunding {
     margin-right: 90%;
@@ -40,4 +48,48 @@
 }
 .linkcampañas:visited {
     text-decoration: none;
+}
+.textorescate {
+    font-family: 'Quicksand', sans-serif;
+}
+.textocrowdfunding {
+    font-family: 'Quicksand', sans-serif;
+}
+.seccioncrowdfunding {
+    padding-bottom: 50px;
+}
+.seccionrescatados {
+    background-color: aquamarine;
+    padding: 10px;
+}
+.titulorescatados {
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+    color: white;
+    padding-bottom: 10px;
+}
+.imgbigotes {
+    max-width: 250px;
+}
+.bigotes {
+    text-align: left;
+    display: inline;
+}
+.imgchocolate {
+    max-width: 250px;
+}
+.imgluna {
+    max-width: 250px;
+}
+.imgmaya {
+    max-width: 250px;
+}
+.imgoso {
+    max-width: 250px;
+}
+.imgpexel {
+    max-width: 250px;
+}
+.imgwifi {
+    max-width: 250px;
 }
