@@ -64,6 +64,7 @@
 .seccionrescatados {
     background-color: aquamarine;
     padding: 10px;
+    
 }
 .titulorescatados {
     text-align: center;
@@ -77,16 +78,19 @@
     -moz-column-gap:      4px;
     column-count:         5;
     column-gap:           4px;
+    
 }
 #photos img {
    width: 100%;
    height: auto;
+  
 }
 @media (max-width: 1200px) {
    #photos {
    -moz-column-count:    4;
    -webkit-column-count: 4;
    column-count:         4;
+   
    }
 }
 @media (max-width: 1000px) {
